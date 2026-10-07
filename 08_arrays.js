@@ -24,16 +24,16 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 
 // slice, splice
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
 const myn1 = myArr.slice(1,3) //Doesnt manuplate actual array
-console.log(myn1);
-console.log("B", myArr);
+// console.log(myn1);
+// console.log("B", myArr);
 
 
 const myn2 = myArr.splice(1,3) // Manuplate actual array
-console.log("C", myArr);
-console.log(myn2);
+// console.log("C", myArr);
+// console.log(myn2);
 
 
 
