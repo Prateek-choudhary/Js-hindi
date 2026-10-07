@@ -10,7 +10,7 @@
 
 // console.log(null  > 0 );
 // console.log(null == 0);
-// console.log(null >= 0); // javascript convert null to 0 and some times in NULL. that why last null >=0 is true and else are false (avoid these types of comparison)
+// console.log(null >= 0); // javascript convert null to 0 for realtional operators. that why last null >=0 is true and else are false (avoid these types of comparison)
 
 // console.log(undefined == 0);
 // console.log(undefined >= 0);
