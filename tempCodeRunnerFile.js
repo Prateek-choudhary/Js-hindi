@@ -1,1 +1,1 @@
-marvel_heros.push(dc_heros)
+Object.freeze(Jsuser)    // freezing object now no one can modify Jsuser
