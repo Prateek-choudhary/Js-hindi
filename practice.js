@@ -103,6 +103,34 @@ let gameCounter = 100
 // console.log(gameCounter);
 // console.log(num1);
 
+// console.log(2  > 1);
+// console.log(2  >= 1);
+// console.log(2  < 1);
+// console.log(2  <= 1);
+// console.log(2  == 1);
+// console.log(2  != 1);
+
+// console.log("2" > 1);
+// console.log("02" > 1); // avoid these types of comparisons
+
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0); // Javascript Converts Null to 0 for realational operators (avoid these types of comparison)
+
+
+// console.log(undefined == 0);
+// console.log(undefined < 0);
+// console.log(undefined <= 0);
+// console.log(undefined > 0);
+// console.log(undefined >= 0); // avoid these types of comparison
+
+// === this is strict comparison operator it also checks the data type of the variable
+
+// console.log("2" === 2);
+
+
+
+
 
 
 
