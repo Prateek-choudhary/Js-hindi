@@ -1,1 +1,1 @@
-Object.freeze(Jsuser)    // freezing object now no one can modify Jsuser
+console.log(str3);
