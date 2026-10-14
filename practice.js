@@ -19,7 +19,7 @@
 
 let name = "Prateek"
 let age = 18
-let isLogedIn = false
+//let isLogedIn = false
 
 // number => 2 to power 53
 //bigint
@@ -128,9 +128,83 @@ let gameCounter = 100
 
 // console.log("2" === 2);
 
+//Types of Data type
+//Primitive Data Type and Reference Data Type
 
+//Primitive Data Type (In these types of Data sets we get copy of origina variable when we When we change the value only copy variable gett affected not original one)
 
+//Types of DataTransfer(Primitive)---------------> string, number, Boolean, null, undefined, symbol, Bigint
 
+const scoreOne = 100
+const scoreTwo = 10.4
+
+const isLoggedIned = false
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const another_Id = Symbol('123')
+
+// console.log(id === another_Id);
+// console.log(typeof(scoreTwo));
+
+const bigNumber = 12232234556783452342312n 
+
+//Reference Type(Non Primitive) (In these Data Types we get reference access of original Value and when we update something in reference It will affect original value directly)
+// Array, object, Functions
+
+const heros = ["IronMan", "Batman", "ShaktiMaan"]
+
+let myobj = {
+    name: "Prateek",
+    age: 20
+}
+
+const myfunction = function(){
+    console.log("Hello, Prateek");
+    
+}
+
+//Stack(Primitve), Heap(Non-primitve)
+
+let myYoutubename = "coffeeorRusk"
+
+let anothername = myYoutubename
+anothername = "coffeeorbiscuit"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let UserOne = {
+    email : "user@google.com",
+    upi : "upi@88192ybl"
+}
+
+let userTwo = UserOne
+userTwo.email = "prateek8832@gmail.com"
+
+// console.log(UserOne.email);
+// console.log(userTwo.email);
+
+const namee = "Prateek"
+const repocount = 50
+// console.log(`Hello my name is ${name} and my repo count is ${repocount}`);
+
+const gameName = new String('prateek-ch-hc')
+// console.log(gameName[0]);
+// console.log(gameName._proto_);
+
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.toLowerCase());
+// console.log(gameName.charAt(5));
+// console.log(gameName.indexOf('ee'));
+
+// const newString = gameName.substring(0,4)
+// console.log(newString);
+
+// const anotherString = gameName.slice(-7) 
+// console.log(anotherString);
 
 
 
