@@ -203,9 +203,20 @@ const gameName = new String('prateek-ch-hc')
 // const newString = gameName.substring(0,4)
 // console.log(newString);
 
-// const anotherString = gameName.slice(-7) 
+// const anotherString = gameName.slice(-7)  // Ihis method we can pass start and end point
 // console.log(anotherString);
 
+const newStringOne = " Prateek "
+// console.log(newStringOne);
+// console.log(newStringOne.trim());//This method removes extra space before or after the text
+
+const url = "https://hitesh.com/hitesh%20choudhary"
+
+console.log(url.replace('%20','-')); //replace() method is use to reaplace something format('search','replacing_text')
+console.logO(url.includes('hitesh')); //This method is used to check specific word is present in entire url or not
+
+
+console.log(gameName.split('-'));
 
 
 
