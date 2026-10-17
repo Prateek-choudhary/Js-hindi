@@ -317,6 +317,27 @@ const myn2 = myArr.splice(1, 3) //manuplates actual array
 // console.log(myn2)
 // console.log("C", myArr);
 
+const marvel_heroes = ["thor", "Ironman", "Spiderman"]
+const dc_heros = ["Superman", "flash", "batman"]
+
+// marvel_heroes.push(dc_heros)
+// console.log(marvel_heroes);
+// console.log(marvel_heroes[3][1]);
+
+const all_heros = marvel_heroes.concat(dc_heros) 
+console.log(all_heros);
+
+const all_new_heros = [...marvel_heroes, ...dc_heros]
+console.log(all_new_heros);
+
+const another_array = [1,2,3, [4,5,6], 7, [6,7,[4,5]]]
+
+const real_another_arrray = another_array.flat(Infinity) //flat method is used to remove the nested array and make it single array
+console.log(real_another_arrray);
+
+
+
+
 
 
 
