@@ -325,15 +325,60 @@ const dc_heros = ["Superman", "flash", "batman"]
 // console.log(marvel_heroes[3][1]);
 
 const all_heros = marvel_heroes.concat(dc_heros) 
-console.log(all_heros);
+// console.log(all_heros);
 
 const all_new_heros = [...marvel_heroes, ...dc_heros]
-console.log(all_new_heros);
+// console.log(all_new_heros);
 
 const another_array = [1,2,3, [4,5,6], 7, [6,7,[4,5]]]
 
 const real_another_arrray = another_array.flat(Infinity) //flat method is used to remove the nested array and make it single array
-console.log(real_another_arrray);
+// console.log(real_another_arrray);
+ 
+//singleton
+//object.create
+
+//object literals
+
+const mysym = Symbol("key1")
+const Jsuser = {
+    name: "Prateek",
+    "full name": "Prateek choudhary",
+    [mysym] : "mykey1",
+    location: "Hyderabad",
+    email: "Prateekchoudhary@gmail.com",
+    isLoggedIn : false,
+    lastloginDays: ["Monday", "saturday"]
+}
+
+// console.log(Jsuser.email);
+// console.log(Jsuser["email"]);
+// console.log(Jsuser["full name"]);
+// console.log(Jsuser[mysym]);
+// console.log(typeof mysym);
+
+Jsuser.email = "Prateekchoudhary@google.com";
+// Object.freeze(Jsuser) // freexong object now no one can modify anything
+Jsuser.email = "Prateekchoudhary@microsoft.com";
+// console.log(Jsuser);
+
+Jsuser.greeting = function()
+{
+    // console.log("Welcome Home warrior");
+    
+}
+
+Jsuser.greetingTwo = function()
+{
+    // console.log(`Welcome to straton oakont ${this.name}`);
+    
+}
+
+// console.log(Jsuser.greeting());
+// console.log(Jsuser.greetingTwo());
+
+
+
 
 
 
