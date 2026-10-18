@@ -375,7 +375,7 @@ Jsuser.greetingTwo = function()
 }
 
 // console.log(Jsuser.greeting());
-// console.log(Jsuser.greetingTwo());
+console.log(Jsuser.greetingTwo())
 
 
 
