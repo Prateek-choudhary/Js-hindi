@@ -428,7 +428,7 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));  //it will give us key value pair in array format
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));  //it will check if the property is present in the object or not
 
-
+//Revision completed
 
 
 
