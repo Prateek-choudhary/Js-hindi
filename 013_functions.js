@@ -40,7 +40,32 @@ function calculateCartPrice(...num1){          //Using ... Rest operator when we
          return num1;
 }
 
-console.log(calculateCartPrice(200, 300, 400));
+// console.log(calculateCartPrice(200, 300, 400));
+
+const user = {
+    username: "hitesh",
+    price : 199
+}
+
+function handlObject(anyobject){                    //using functions with object
+    console.log(`username is ${anyobject.username} amd price is ${anyobject.price}`);
+    
+}
+
+// handlObject(user)
+
+// handlObject({                     //direct passing object in functions
+//     username: "samaltmon",
+//     price: 2299
+// })
 
 
+// const myNewArray = [200, 400, 100, 600]  //using functions with array
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 100, 600])); // direct passng array
 
