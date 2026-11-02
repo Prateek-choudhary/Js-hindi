@@ -29,4 +29,6 @@ if(balance > 250){
     console.log("greater than 100");
 }else if(balance > 50){
     console.log("Greater tham 50 ")
-}
+} 
+
+// understanding cantrol flow
