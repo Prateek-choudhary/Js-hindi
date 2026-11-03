@@ -29,3 +29,30 @@ switch (month) {
         
 }        
 
+
+const month1 = "April"
+
+switch(month1){
+    case "Jan":
+        console.log("January");
+        break;
+    
+    case "feb":
+        console.log("Februrary");
+        break;
+
+    case "march":
+        console.log("March");
+        break;
+        
+    case "April":
+        console.log("April");
+        break;
+        
+    default:
+        console.log("Invalid Month")
+        break;   
+            
+}
+
+
