@@ -59,9 +59,27 @@ for (let index = 1; index <= 20; index++) {
 
 
 /****************************************************************************************************************************/
-
+//while Loop
 let index = 0
 while(index<=10){
-    console.log(`value of i is ${index}`);
+    // console.log(`value of i is ${index}`);
     index++;
 }
+
+let mynewArray = ['flash', 'batman', 'superman'];
+let arr = 0
+while(arr < mynewArray.length){
+    // console.log(`value of Array is ${mynewArray[arr]}`);
+    arr++
+    
+}
+
+
+/*****************************************************************************************************************************/
+//do-while
+let score = 10
+
+do{
+    console.log(`score is ${score}`);
+    score++
+}while(score<=10)
