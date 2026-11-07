@@ -30,3 +30,15 @@ for (const key of map) {  // use this form to prit key and value diffrenlty [key
     console.log(key);
     
 }
+
+const myObject = {
+    'game1' : 'NFS',
+    'game2' : 'FIFA'
+}
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);
+    
+// }
+
+
