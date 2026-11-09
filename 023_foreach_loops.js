@@ -13,7 +13,7 @@ coding.forEach((val)=>{
 // coding.forEach(printMe())
 
 coding.forEach((item, index, array) => {
-     console.log(item, index, array);
+    //  console.log(item, index, array);
 })
 
 const myCoding = [
@@ -32,5 +32,5 @@ const myCoding = [
 ] 
 
 myCoding.forEach((item) => {
-    console.log(`The language name is ${item.languageName} and the file name is ${item.languageFileName}`); 
+    // console.log(`The language name is ${item.languageName} and the file name is ${item.languageFileName}`); 
 })
