@@ -7,7 +7,7 @@
 
 // console.log(values);
 
-const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter((num) => num>4)  // using filter in single line
 // console.log(newNums);
@@ -68,7 +68,47 @@ const newNums = myNumers
                 .map((num) => num * 10)
                 .map((num) => num + 1)  // chaining of map function in chaining of map function in chain in  which the output of first map function is passed to second map function
                 .filter((num) => num > 40)  // chaining of filter function in which the output of second map function is passed to filter function
-console.log(newNums);
+// console.log(newNums);
+
+
+/* ************************************************** Reduce ********************************* */
+
+const myNums = [1, 2, 3]
+
+// const myTotal = myNums.reduce(function (acc, curval) {
+//     console.log(`acc : ${acc} and curval: ${curval}`);
+    
+//     return acc + curval
+// }, 0)
+
+const myTotal  = myNums.reduce((acc, curvalue) => acc + curvalue, 0)
+console.log(myTotal);
+
+const shoppingCart = [
+    {
+        itemname: "js course",
+        price: 299
+    },
+    {
+        itemname: "mobile dev course",
+        price: 5999
+    },
+    {
+        itemname: "data science course",
+        price: 12999
+    },
+    {
+        itemname: "pycourse",
+        price: 13000
+    },
+]
+
+const pricetopay = shoppingCart.reduce((acc, item) => acc + item.price,0)
+
+console.log(pricetopay);
+
+
+
 
 
 
