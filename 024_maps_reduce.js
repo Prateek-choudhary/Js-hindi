@@ -82,7 +82,7 @@ const myNums = [1, 2, 3]
 // }, 0)
 
 const myTotal  = myNums.reduce((acc, curvalue) => acc + curvalue, 0)
-console.log(myTotal);
+// console.log(myTotal);
 
 const shoppingCart = [
     {
@@ -105,7 +105,7 @@ const shoppingCart = [
 
 const pricetopay = shoppingCart.reduce((acc, item) => acc + item.price,0)
 
-console.log(pricetopay);
+// console.log(pricetopay);
 
 
 

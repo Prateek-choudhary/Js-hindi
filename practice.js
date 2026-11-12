@@ -428,14 +428,64 @@ const user = [
 // console.log(Object.entries(tinderUser));  //it will give us key value pair in array format
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"));  //it will check if the property is present in the object or not
 
-//Revision completed till objects lesson
+/***********************************************objects(Part-03)_and_JSON API************************************************* */
 
 
+const course = {
+    coursename: "Js in hindi",
+    price : "999",
+    courseInstructor: "Prateek choudhary"
+}
 
+// console.log(course.courseInstructor);
+const {courseInstructor : instructor} = course
+const { price : newprice } = course
 
+//console.log(courseInstructor);
+// console.log(instructor);
+// console.log(newprice);
 
+/**************************Funcions 13*****************/
 
+function sayMyName(){
+    console.log('p');
+    console.log('r');
+    console.log('a');
+    console.log('t');
+    console.log('e');
+    console.log('e');
+    console.log('k');   
+}
 
+// sayMyName()
+
+// function addTwoNum(num1, num2) {
+//     console.log(`Addition of ${num1} and ${num2} numbers:`,num1+num2);
+    
+// }
+
+// addTwoNum(2,3)
+
+function additionofNum(num1, num2){
+    // let result = num1 + num2
+    // return result;
+    return num1 + num2
+    
+}
+
+// console.log(additionofNum(3,5));
+let result = additionofNum(3,5)
+// console.log(result);
+
+function loginUserMessage(username="Prateek"){
+    if(!username){
+        console.log("Please enter username");
+        return 
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("abhishek"));
 
 
 
