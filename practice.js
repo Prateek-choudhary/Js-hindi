@@ -485,7 +485,33 @@ function loginUserMessage(username="Prateek"){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("abhishek"));
+// console.log(loginUserMessage("abhishek"));
+
+function calculateCartPrice(...num){  // this is rest operator used when we dont know how much paramtere going to appear in this function
+    return num1;
+}
+
+// console.log(calculateCartPrice(200, 300, 400));
+
+const newuser = {
+    username : "hitesh",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`user name is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(newuser)
+
+handleObject({
+    username: "samaltman",
+    price : 299
+})
+
+
+
+
 
 
 
