@@ -488,7 +488,7 @@ function loginUserMessage(username="Prateek"){
 // console.log(loginUserMessage("abhishek"));
 
 function calculateCartPrice(...num){  // this is rest operator used when we dont know how much paramtere going to appear in this function
-    return num1;
+    return num;
 }
 
 // console.log(calculateCartPrice(200, 300, 400));
@@ -499,7 +499,7 @@ const newuser = {
 }
 
 function handleObject(anyobject){
-    console.log(`user name is ${anyobject.username} and price is ${anyobject.price}`);
+    // console.log(`user name is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 handleObject(newuser)
@@ -509,6 +509,13 @@ handleObject({
     price : 299
 })
 
+// const myNewArray = [200, 400, 100, 600];
+
+function returnSecondArray(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondArray(myNewArray));
+// console.log(returnSecondArray([200, 400, 100, 600]));
 
 
 
