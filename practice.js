@@ -537,14 +537,57 @@ function one(){
     function two(){
         const website = "youtube"
         console.log(username);
-        
+                                         // child can access parent properties but parent cannot access child properties
     }
 //    console.log(website);
     two();
     
 }
 
-one()
+// one()
+
+if(true){
+    const username="Prateek"
+    if(username === "Prateek") {
+        const website = "youtube"
+        // console.log(username + " " + website);
+        
+    }
+    // console.log(website);
+    
+}
+
+// console.log(username);
+/************************************************************Interesting************************************************** */
+// console.log(addOne(5));
+
+function addOne(num){
+    return num + 1
+}
+// console.log(addOne(5));
+
+const addTwo = function(num){
+    return num + 2
+}
+// console.log(addTwo(5));
+
+/************************************************* 015Arrow.js**********************************************/
+
+const usr = {
+    username: "Hitesh",
+    price : 999,
+    welcomeMessage: function() {
+        console.log(`${this.username}, welcome to website`);
+        console.log("Calling whole object using this operator:",this);  //calling whole object using this operator
+        
+    }
+}
+
+// usr.welcomeMessage()
+// usr.username = "raghav"
+// usr.welcomeMessage()
+
+console.log(this);
 
 
 
