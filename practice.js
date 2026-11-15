@@ -286,7 +286,7 @@ const myArr = [0, 1, 2, 3, 4, 5]
 const myHeros = ["IronMan", "Batman", "SuperMan"]
 
 const myArr2 = new Array(1, 2, 3, 4, 5)
-console.log(myArr[1]);
+// console.log(myArr[1]);
 
 // myArr.push(6)
 // myArr.push(7)
@@ -587,8 +587,16 @@ const usr = {
 // usr.username = "raghav"
 // usr.welcomeMessage()
 
-console.log(this);
+// console.log(this);
 
+const chain = () => {
+    let username = "Prateek"
+    console.log(username);
+}
+
+chain()
+
+const addTw0 = (num1, num2) => num1 + num2
 
 
 
