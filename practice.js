@@ -594,9 +594,23 @@ const chain = () => {
     console.log(username);
 }
 
-chain()
+// chain()
 
-const addTw0 = (num1, num2) => num1 + num2
+// const addTwoo = (num1, num2) => {
+//     return num1+num2
+// }
+
+// console.log(addTwoo(2,3));
+
+const addTwoo = (num1,num2) => num1 + num2;
+// console.log(addTwoo(2,1));
+
+const addTwooo = (num1, num2) => console.log(num1+num2)
+// addTwooo(3,6)
+
+const addobject = (num1, num2) => ({username: "Prateek"})
+console.log(addobject(2,3));
+
 
 
 
