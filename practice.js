@@ -609,9 +609,21 @@ const addTwooo = (num1, num2) => console.log(num1+num2)
 // addTwooo(3,6)
 
 const addobject = (num1, num2) => ({username: "Prateek"})
-console.log(addobject(2,3));
+// console.log(addobject(2,3));
+
+//******************************************* IIFE(Immediate Invoked Fucntion Expression*************************************************** */
 
 
+const chainy = (function chai()
+{
+    console.log("DB CONNECTED");
+    
+})();
+
+((name) => {
+    console.log(`Welcome Mr.${name}`);
+    
+})('Prateek')
 
 
 
