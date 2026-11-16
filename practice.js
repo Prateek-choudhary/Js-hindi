@@ -614,18 +614,34 @@ const addobject = (num1, num2) => ({username: "Prateek"})
 //******************************************* IIFE(Immediate Invoked Fucntion Expression*************************************************** */
 
 
-const chainy = (function chai()
-{
-    console.log("DB CONNECTED");
+// const chainy = (function chai()
+// {
+//     console.log("DB CONNECTED");
     
-})();
+// // })();
 
-((name) => {
-    console.log(`Welcome Mr.${name}`);
+// ((name) => {
+//     console.log(`Welcome Mr.${name}`);
     
-})('Prateek')
+// })('Prateek')
 
+/******************************************* CANTROL FLOW STATEMENTS****************************************************************************** */
+const isUserloggedIn = true;
+const tempreature = 30;
+if(tempreature === 30){
+    console.log("yes Tempreature is 30");
+    
+}else{
+    console.log("Tempreature is less or may be Greater than 30");
+    
+}
 
+const scores =200;
+if (scores > 100){
+    const power = "fly"
+    console.log(`User power: ${power}`);
+}
+    
 
 
 
