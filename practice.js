@@ -629,7 +629,7 @@ const addobject = (num1, num2) => ({username: "Prateek"})
 const isUserloggedIn = true;
 const tempreature = 30;
 if(tempreature === 30){
-    console.log("yes Tempreature is 30");
+    // console.log("yes Tempreature is 30");
     
 }else{
     console.log("Tempreature is less or may be Greater than 30");
@@ -638,11 +638,35 @@ if(tempreature === 30){
 
 const scores =200;
 if (scores > 100){
-    const power = "fly"
-    console.log(`User power: ${power}`);
+    // const power = "fly"
+    // console.log(`User power: ${power}`);
 }
     
+const balancee = 300;
+// if(balancee > 250) {console.log('You can buy the product');}
+if(balancee > 250){
+    // console.log('balancee is more than 250');
+}else if(balancee > 100){
+    console.log('Balance is greater than 100');
+    
+}else if(balancee > 50) {
+    console.log('Balance is greater than 50');
+    
+}
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+if(userLoggedIn && debitCard){
+    // console.log("Allow to buy courses");
+    
+}
+
+if(loggedInFromGoogle || loggedInFromEmail){
+    // console.log("User Logged In");
+    
+}
 
 
 
