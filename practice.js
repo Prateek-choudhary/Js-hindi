@@ -668,6 +668,53 @@ if(loggedInFromGoogle || loggedInFromEmail){
     
 }
 
+/************************************************SWITCH CASES******************************** */
+const month = 3
+// switch(month) {
+//     case 1:
+//         console.log('January');
+//         break;
+//     case 2:
+//         console.log('February');
+//         break;
+//     case 3:
+//         console.log("March");
+//         break;
+//     case 4:
+//         console.log("April");
+//         break;
+//     case 5:
+//         console.log(("May"));
+//     default:
+//         console.log("Invalid input please update it");
+//}
+
+ const mycollege = "NIT Allahbad"
+ switch(mycollege) {
+
+    case mycollege == "NIT Kurkshetra":
+        console.log("NIT kurukshetra");
+        break;
+
+    case mycollege == "NIT warangal":
+        console.log("NIT warangal");
+        break;
+    
+    case mycollege == "NIT Allahbad": 
+        console.log("NIT Allahbad");
+        break;
+
+    default:
+        console.log("You are not from NIT");
+        break;
+            
+} 
+                
+            
+            
+            
+        
+
 
 
 
