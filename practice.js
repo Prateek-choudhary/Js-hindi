@@ -692,24 +692,58 @@ const month = 3
  const mycollege = "NIT Allahbad"
  switch(mycollege) {
 
-    case mycollege == "NIT Kurkshetra":
-        console.log("NIT kurukshetra");
-        break;
+    // case  "NIT Kurkshetra":
+    //     console.log("NIT kurukshetra");
+    //     break;
 
-    case mycollege == "NIT warangal":
-        console.log("NIT warangal");
-        break;
+    // case "NIT warangal":
+    //     console.log("NIT warangal");
+    //     break;
     
-    case mycollege == "NIT Allahbad": 
-        console.log("NIT Allahbad");
-        break;
+    // case  "NIT Allahbad": 
+    //     console.log("NIT Allahbad");
+    //     break;
 
-    default:
-        console.log("You are not from NIT");
-        break;
+    // default:
+    //     console.log("You are not from NIT");
+    //     break;
             
 } 
-                
+
+const usernewEmail = "prateekchoudhary81205@google.con"
+if(usernewEmail){
+    console.log("USER EMAIL DETECTED");
+    
+}else{
+    console.log("USER EMAIL NOT DETECTED");
+    
+}
+
+/**
+ falsy values
+ 
+ false, 0, -0, BigInt(0n), "", null, undefined, NaN
+
+ truthy values
+
+ true, {}, [],1, function(){}, -1, "false", "0", "null", "undefined", "NaN"
+ 
+ */
+
+//Using Truthy or falsy values
+
+// const username = ""
+// if(username){
+//     console.log("User name found :" + username);
+// }else{
+//     console.log("User name not found"); //This block will get execute because "" is falsy values.
+    
+// }
+         
+const newArray = []
+if(newArray === 0){
+    console.log("Array is empty");
+}
             
             
             
