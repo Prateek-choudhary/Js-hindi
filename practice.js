@@ -740,10 +740,30 @@ if(usernewEmail){
     
 // }
          
-const newArray = []
-if(newArray === 0){
-    console.log("Array is empty");
+// const newArray = []
+// if(newArray === 0){
+//     console.log("Array is empty");
+// }
+
+const emptyobject = {}
+if(Object.keys(emptyobject).length === 0){
+    // console.log("Object is empty");
+    
 }
+
+// Nullish coalescing operator (??): null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = null ?? 10 ?? 20
+console.log(val1);
+
+
+const icetea = 100
+icetea > 50 ? console.log("icetea is more thsan 50") : console.log("Ice tea is less than 50");
+
+
             
             
             
