@@ -796,10 +796,27 @@ for (let i = 0; i < myArray.length; ++i) {
     
 }
         
+//Break is use to terminate the whole program on specific constraint
 
+for(let i = 0; i <= 10; i++){
+    if(i === 5){
+        // console.log("5 detected Program breakout")
+        // break;
+    }
+    // console.log(`Value of i is ${i}`);
+    
+}
 
-
-
+// continue
+for(let i=0; i<=10; i++)
+{
+    if(i === 5){
+    //    console.log("5 detected Program continue")
+       continue;
+    }
+    // console.log(`The value of i is ${i}`);
+    
+}
 
 
 
