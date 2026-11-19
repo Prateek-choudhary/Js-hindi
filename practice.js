@@ -788,11 +788,11 @@ for (let i = 1; i <= 10; ++i){
       
 
 let myArray = ["Flash", "IronMan", "Superman"]
-console.log(myArray.length);
+// console.log(myArray.length);
 
 for (let i = 0; i < myArray.length; ++i) {
     const element = myArray[i];
-    console.log(element);
+    // console.log(element);
     
 }
         
@@ -818,6 +818,27 @@ for(let i=0; i<=10; i++)
     
 }
 
+//while loop
+let index = 1
+while(index<=10){
+    console.log(`value of i is ${index}`);
+    index++;
+    
+}
+
+let mynewArray = ['flash', "batman", "Spiderman"]
+let arr = 0
+while(arr < mynewArray.length){
+    // console.log(mynewArray[arr]);
+    arr++
+    
+}
+
+let scoring = 10
+do{
+    console.log(`Score is ${scoring}`);
+    scoring++
+}while(scoring <= 10)
 
 
 
