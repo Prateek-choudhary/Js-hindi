@@ -867,9 +867,29 @@ for(const key of map){
     
 }
 
+const myObject = {
+    game1: "FIFA",
+    game2: "NFS"
+}
+
+// for(const [key, value] of myObject){
+//     console.log(key, ":-", value);
+    
+// }
 
 
 
+const mynewObject = {
+    js: "Javascript",
+    cpp : "c++",
+    rb: "ruby",
+    swift: "Swift by apple"
+}
+
+for(const key in mynewObject){
+    console.log(`${key} shortcut key is for ${mynewObject[key]}`);
+    
+}
 
 
 
