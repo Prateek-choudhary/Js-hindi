@@ -712,10 +712,10 @@ const month = 3
 
 const usernewEmail = "prateekchoudhary81205@google.con"
 if(usernewEmail){
-    console.log("USER EMAIL DETECTED");
+    // console.log("USER EMAIL DETECTED");
     
 }else{
-    console.log("USER EMAIL NOT DETECTED");
+    // console.log("USER EMAIL NOT DETECTED");
     
 }
 
@@ -821,7 +821,7 @@ for(let i=0; i<=10; i++)
 //while loop
 let index = 1
 while(index<=10){
-    console.log(`value of i is ${index}`);
+    // console.log(`value of i is ${index}`);
     index++;
     
 }
@@ -835,14 +835,37 @@ while(arr < mynewArray.length){
 }
 
 let scoring = 10
-do{
-    console.log(`Score is ${scoring}`);
-    scoring++
-}while(scoring <= 10)
+// do{
+//     console.log(`Score is ${scoring}`);
+//     scoring++
+// }while(scoring <= 10)
+
+/*********************************************High order loops****************************************************** */
+const arr1 = [1, 2, 3, 4, 5]
+
+for (const num of arr1){
+    // console.log(num);
+}
+
+const greetings = "Hello world!"
+for(const greet of greetings){
+    // console.log(`Each character is ${greet}`);
+    
+}
 
 
+//Maps
+const map = new Map()
+map.set("Name", "Prateek")
+map.set("Age", 22)
+map.set("Country", "India")
+map.set("Age", 22)
+// console.log(map);
 
-
+for(const key of map){
+    // console.log(key);
+    
+}
 
 
 
