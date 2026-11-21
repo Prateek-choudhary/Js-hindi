@@ -887,11 +887,23 @@ const mynewObject = {
 }
 
 for(const key in mynewObject){
-    console.log(`${key} shortcut key is for ${mynewObject[key]}`);
+    // console.log(`${key} shortcut key is for ${mynewObject[key]}`);
     
 }
 
+const programming = ["js", "rb", "py", "cpp", "java"]
 
+for(const key in programming){
+    // console.log(programming[key]);
+}
 
+const newmap = new Map()
+newmap.set("Name", "Prateek")
+newmap.set("age", 20)
+newmap.set("country", "India")
 
+for(const key in newmap){                 // Maps are not iterable
+    console.log(newmap);
+    
+}
 
