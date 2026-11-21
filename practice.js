@@ -903,7 +903,44 @@ newmap.set("age", 20)
 newmap.set("country", "India")
 
 for(const key in newmap){                 // Maps are not iterable
-    console.log(newmap);
+    // console.log(newmap);
     
 }
 
+/********************************************************foreach loops********************************************************************** */
+const coding = ["js", "ruby", "python", "java"]
+
+coding.forEach(function (item){
+    // console.log(item);
+    
+})
+
+coding.forEach((val)=>{
+    // console.log(val);
+    
+})
+
+coding.forEach((item, index, array)=>{
+    // console.log(item, index, array);
+    
+})
+
+const myCoding = [
+    {
+        languageName: "Javascript",
+        languageFileName: "js"
+    },
+     {
+        languageName: "python",
+        languageFileName: "py"
+    },
+     {
+        languageName: "ruby",
+        languageFileName: "rb"
+    },
+]
+
+myCoding.forEach((item)=>{
+    console.log(`The language name is ${item.languageName} and its file extension is ${item.languageFileName} `);
+    
+})
