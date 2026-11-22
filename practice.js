@@ -1014,4 +1014,19 @@ const newNumss = myNumers
                    
 // console.log(newNumss);
                     
+/**********************************************REDUCE*************************************************** */
+
+const newNumsing = [1, 2, 3]
+
+// const  myTotal = newNumsing.reduce(function(acc, curval){
+//     console.log(`acc : ${acc} and curval: ${curval}`);
+
+//     return acc+curval
+    
+// }, 0)
+
+const myTotal = newNumsing.reduce((acc, curveval) => acc + curveval, 0)
+
+console.log(myTotal);
+
 
